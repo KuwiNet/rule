@@ -1,10 +1,79 @@
 # 代理补充列表
 
 # 域名后缀匹配
-DOMAIN-SUFFIX,qichiyu.com
+DOMAIN-SUFFIX,3mi.me
+DOMAIN-SUFFIX,abcd.pm
+DOMAIN-SUFFIX,acs.pp.ua
+DOMAIN-SUFFIX,afrp.net
+DOMAIN-SUFFIX,afrps.cn
+DOMAIN-SUFFIX,aimg.pp.ua
+DOMAIN-SUFFIX,ainf.us
+DOMAIN-SUFFIX,aurl.pp.ua
+DOMAIN-SUFFIX,auu.edu.bi
+DOMAIN-SUFFIX,ccge.cc
+DOMAIN-SUFFIX,check.pm
+DOMAIN-SUFFIX,danyoyo.com
+DOMAIN-SUFFIX,darny.cn
+DOMAIN-SUFFIX,darny.net
+DOMAIN-SUFFIX,darny.paba.se
+DOMAIN-SUFFIX,eyotrip.com
+DOMAIN-SUFFIX,frp.pw
+DOMAIN-SUFFIX,frps.pp.ua
+DOMAIN-SUFFIX,frps.uk
+DOMAIN-SUFFIX,gede.eu.org
+DOMAIN-SUFFIX,hyou.org
+DOMAIN-SUFFIX,joeys.eu.org
+DOMAIN-SUFFIX,joeys.pp.ua
+DOMAIN-SUFFIX,jutv.in
+DOMAIN-SUFFIX,kutu.us
+DOMAIN-SUFFIX,kuwi.net
+DOMAIN-SUFFIX,kw.ke
+DOMAIN-SUFFIX,kwke.net
+DOMAIN-SUFFIX,omail.red
+DOMAIN-SUFFIX,sanmi.org
+DOMAIN-SUFFIX,tool.ke
+DOMAIN-SUFFIX,tutu.re
+DOMAIN-SUFFIX,uc.edu.ci
+DOMAIN-SUFFIX,vmss.cc
+DOMAIN-SUFFIX,yotu.cc
+DOMAIN-SUFFIX,yotu.pp.ua
+DOMAIN-SUFFIX,yotu.pw
+DOMAIN-SUFFIX,yotu.uk
+DOMAIN-SUFFIX,zhangli.org
+DOMAIN-SUFFIX,zp.gs
+DOMAIN-SUFFIX,zpup.cn
+DOMAIN-SUFFIX,zwrt.de
+DOMAIN-SUFFIX,zyou.us
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
+
+# IP匹配
+IP-CIDR,45.196.219.51/24,no-resolve
+IP-CIDR,206.237.16.195/24,no-resolve
+IP-CIDR,156.226.168.60/24,no-resolve
+IP-CIDR,156.226.169.14/24,no-resolve
+IP-CIDR,206.237.8.178/24,no-resolve
+IP-CIDR,104.156.140.194/24,no-resolve
+IP-CIDR,107.174.253.237/24,no-resolve
+IP-CIDR,38.165.47.22/24,no-resolve
+IP-CIDR,82.157.65.45/24,no-resolve
+IP-CIDR,101.33.208.3/24,no-resolve
+IP-CIDR,35.229.210.207/24,no-resolve
+IP-CIDR,35.212.194.49/24,no-resolve
+IP-CIDR,82.157.12.159/24,no-resolve
+IP-CIDR,156.225.18.166/24,no-resolve
+IP-CIDR,119.28.68.195/24,no-resolve
+IP-CIDR,43.132.165.232/24,no-resolve
+IP-CIDR,156.226.170.188/24,no-resolve
+IP-CIDR,45.196.219.254/24,no-resolve
+IP-CIDR,199.48.247.183/24,no-resolve
+IP-CIDR,37.123.196.143/24,no-resolve
+IP-CIDR,156.251.176.206/24,no-resolve
+IP-CIDR,45.207.221.201/24,no-resolve
+IP-CIDR,156.251.248.183/24,no-resolve
+IP-CIDR,46.203.125.244/24,no-resolve
+IP-CIDR,140.235.39.208/24,no-resolve
 
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
