@@ -44,6 +44,7 @@ DOMAIN-SUFFIX,zp.gs
 DOMAIN-SUFFIX,zpup.cn
 DOMAIN-SUFFIX,zwrt.de
 DOMAIN-SUFFIX,zyou.us
+DOMAIN-SUFFIX,arelay.cn
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
