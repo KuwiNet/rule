@@ -47,6 +47,7 @@ DOMAIN-SUFFIX,zyou.us
 DOMAIN-SUFFIX,arelay.cn
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,spotify.com
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
