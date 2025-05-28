@@ -90,6 +90,7 @@ proxy-groups:
   - {name: 📹 YouTube, type: select, proxies: [直连, 🚀 默认代理]}
   - {name: 🍀 Google, type: select, proxies: [直连, 🚀 默认代理]}
   - {name: 🤖 ChatGPT, type: select, proxies: [直连, 🚀 默认代理]}
+  - {name: 💰 Binance, type: select, proxies: [直连, 🚀 默认代理]}
   - {name: 👨🏿‍💻 GitHub, type: select, proxies: [直连, 🚀 默认代理]}
   - {name: 🐬 OneDrive, type: select, proxies: [直连, 🚀 默认代理]}
   - {name: 🪟 Microsoft, type: select, proxies: [直连, 🚀 默认代理]}
@@ -109,6 +110,7 @@ rules:
   - RULE-SET,private_domain,直连
   - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,proxylite,🚀 默认代理
+  - RULE-SET,binance,💰 Binance
   - RULE-SET,ai,🤖 ChatGPT
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
   - RULE-SET,youtube_domain,📹 YouTube
@@ -127,6 +129,7 @@ rules:
   - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
   - RULE-SET,telegram_ip,📲 Telegram,no-resolve
   - RULE-SET,cn_ip,🎯 直连
+  - RULE-SET,cn_ip,🎯 直连
   - MATCH,🐟 漏网之鱼
 
 # 规则集
@@ -137,6 +140,7 @@ rule-anchor:
 rule-providers: 
   private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
   proxylite: { <<: *class, url: "https://raw.githubusercontent.com/KuwiNet/rule/refs/heads/master/ProxyLite.list"}
+  binance: { <<: *class, url: "https://raw.githubusercontent.com/KuwiNet/rule/refs/heads/master/binance.list"}
   ai: {  <<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs" }
   youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
   google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
