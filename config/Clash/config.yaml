@@ -91,6 +91,7 @@ proxy-groups:
   - {name: 🍀 Google, type: select, proxies: [直连, 🚀 默认代理]}
   - {name: 🤖 ChatGPT, type: select, proxies: [直连, 🚀 默认代理]}
   - {name: 💰 Binance, type: select, proxies: [直连, 🚀 默认代理]}
+  - {name: 🎧 Spotify, type: select, proxies: [直连, 🚀 默认代理]}
   - {name: 👨🏿‍💻 GitHub, type: select, proxies: [直连, 🚀 默认代理]}
   - {name: 🐬 OneDrive, type: select, proxies: [直连, 🚀 默认代理]}
   - {name: 🪟 Microsoft, type: select, proxies: [直连, 🚀 默认代理]}
@@ -112,6 +113,7 @@ rules:
   - RULE-SET,proxylite,🚀 默认代理
   - RULE-SET,binance,💰 Binance
   - RULE-SET,ai,🤖 ChatGPT
+  - RULE-SET,spotify,🎧 Spotify
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
   - RULE-SET,youtube_domain,📹 YouTube
   - RULE-SET,google_domain,🍀 Google
@@ -141,7 +143,8 @@ rule-providers:
   private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
   proxylite: { <<: *class, url: "https://raw.githubusercontent.com/KuwiNet/rule/refs/heads/master/ProxyLite.list"}
   binance: { <<: *class, url: "https://raw.githubusercontent.com/KuwiNet/rule/refs/heads/master/binance.list"}
-  ai: {  <<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs" }
+  ai: {  <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs" }
+  spotify: {  <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.mrs" }
   youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
   google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
   github_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"}
@@ -156,7 +159,6 @@ rule-providers:
   gfw_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.mrs"}
   geolocation-!cn: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs"}
   cn_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"}
-  
   cn_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs"}
   google_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"}
   telegram_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
