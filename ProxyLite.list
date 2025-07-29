@@ -47,6 +47,7 @@ DOMAIN-SUFFIX,zyou.us
 DOMAIN-SUFFIX,arelay.cn
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,ketv.uk
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
@@ -77,6 +78,7 @@ IP-CIDR,45.207.221.201/24,no-resolve
 IP-CIDR,156.251.248.183/24,no-resolve
 IP-CIDR,46.203.125.244/24,no-resolve
 IP-CIDR,140.235.39.208/24,no-resolve
+IP-CIDR,148.135.114.146/24,no-resolve
 
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
