@@ -111,7 +111,6 @@ proxy-groups:
 rules:
   - RULE-SET,private_domain,直连
   - RULE-SET,direct,直连
-  - RULE-SET,bytedance,直连
   - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,proxylite,🚀 默认代理
   - RULE-SET,binance,💰 Binance
@@ -123,6 +122,7 @@ rules:
   - RULE-SET,onedrive_domain,🐬 OneDrive
   - RULE-SET,microsoft_domain,🪟 Microsoft
   - RULE-SET,tiktok_domain,🎵 TikTok
+  - RULE-SET,bytedance,直连
   - RULE-SET,speedtest_domain,✈️ Speedtest
   - RULE-SET,telegram_domain,📲 Telegram
   - RULE-SET,netflix_domain,🎥 NETFLIX
