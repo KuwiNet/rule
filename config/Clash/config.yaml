@@ -145,7 +145,7 @@ rule-anchor:
 rule-providers: 
   private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
   direct: { <<: *class, url: "https://raw.githubusercontent.com/KuwiNet/rule/refs/heads/master/Direct.list"}
-  bytedance: { <<: *class, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/bytedance.list"}
+  bytedance: {  <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bytedance.mrs" }
   proxylite: { <<: *class, url: "https://raw.githubusercontent.com/KuwiNet/rule/refs/heads/master/ProxyLite.list"}
   binance: { <<: *class, url: "https://raw.githubusercontent.com/KuwiNet/rule/refs/heads/master/binance.list"}
   ai: {  <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs" }
